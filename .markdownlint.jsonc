@@ -1,4 +1,6 @@
 {
+    // https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
     "MD004": {"style": "dash"},
     "MD007": { "indent": 4 },
     "MD013": false,
@@ -26,7 +28,7 @@
         {
           "name": "nbsp",
           "message": "Don't use no-break spaces",
-          "searchPattern": "/ /g",
+          "searchPattern": "/ /g",
           "replace": " ",
           "searchScope": "all"
         },
